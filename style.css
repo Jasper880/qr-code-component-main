@@ -1,0 +1,45 @@
+body {
+    background-color: #d5e1ef ;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card_container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card{
+    background-color: white;
+    border-radius: 25px;
+    height: 500px; 
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    /* padding-top: 15px; */
+}
+
+.card_top img {
+    border-radius: 15px;
+    height: 285px;
+    width: 285px;
+}
+
+.card_text{
+    text-align: center;
+    width: 250px;
+}
+
+.card_body_1 {
+    color: #192030;
+    font-size: 1.3em;
+    font-weight: 700;  
+}
+
+.card_body_2 {
+    color: #9da2a8;
+    font-size: 1em;
+}
